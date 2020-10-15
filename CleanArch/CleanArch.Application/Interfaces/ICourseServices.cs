@@ -7,6 +7,6 @@ namespace CleanArch.Application.Interfaces
 {
     public interface ICourseServices
     {
-        IEnumerable<CourseViewModel> GetCourses();
+        CourseViewModel GetCourses();
     }
 }
